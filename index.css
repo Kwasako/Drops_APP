@@ -22,7 +22,7 @@ h1 {
 .container{
     background-color: #fff;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     border-radius: 20px; 
     padding-top: 18px;  
 }
