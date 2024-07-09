@@ -60,7 +60,7 @@ export default function LandingPage(){
                            className = 'image2'
                         />
                         <img 
-                            src ='./Assets/Adidas_one_pair.png' 
+                            src ='Assets/Adidas_one_pair.png' 
                             alt='Adidas one pair image'
                             className = 'image3'
                         />
