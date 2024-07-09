@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function DetailsPage(){
     return (
@@ -6,7 +7,9 @@ export default function DetailsPage(){
                 <div className='details'>
                     <ul className='detailpage-ul'>
                         <li>
-                            <img src='./Assets/back_arrow.svg' alt = 'back arrow icon'/>
+                            <Link to ='/'>
+                                <img src='./Assets/back_arrow.svg' alt = 'back arrow icon'/>
+                            </Link>
                         </li>
                         <li className='sneaker_details'>Sneakers Detail</li>
                         <li>

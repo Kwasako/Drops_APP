@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function LandingPage(){
     return (
@@ -60,7 +61,7 @@ export default function LandingPage(){
                            className = 'image2'
                         />
                         <img 
-                            src ='Assets/Adidas_one_pair.png' 
+                            src ='./Assets/Adidas_one_pair.png' 
                             alt='Adidas one pair image'
                             className = 'image3'
                         />
@@ -83,11 +84,14 @@ export default function LandingPage(){
                                         className='heart'
                                     />
                                 </div>
-                                <img 
-                                    src='./Assets/Lebron20_Basketball_Shoes.png' 
-                                    alt = 'Lebron20 Basketball Shoes image'
-                                    className='shoe_img' 
-                                />
+                                <Link to ='/details'>
+                                    <img 
+                                        src='./Assets/Lebron20_Basketball_Shoes.png' 
+                                        alt = 'Lebron20 Basketball Shoes image'
+                                        className='shoe_img' 
+                                    />
+                                </Link>
+                                
                             
                             </div>
                             <div className='desc'>
@@ -105,11 +109,13 @@ export default function LandingPage(){
                                         className='heart'
                                     />
                             </div>
-                            <img 
-                                src='./Assets/Runfalcon3_Cloudfoam.png' 
-                                alt = 'Runfalcon3 Cloudfoam image'
-                                className='shoe_img' 
-                            />
+                            <Link to ='/details'>
+                                <img 
+                                    src='./Assets/Runfalcon3_Cloudfoam.png' 
+                                    alt = 'Runfalcon3 Cloudfoam image'
+                                    className='shoe_img' 
+                                />
+                            </Link>
                             </div>
                             <div className='desc'>
                                 <p>RUNFALCON 3 CLOUDFOAM LOW RUNNING SHOES</p>
@@ -125,11 +131,13 @@ export default function LandingPage(){
                                         className='heart'
                                     />
                                 </div>
-                                <img 
-                                    src='./Assets/New_Balance_327.png' 
-                                    alt = 'New Balance 327 image'
-                                    className='shoe_img' 
-                                />
+                                <Link to='/details'>
+                                    <img 
+                                        src='./Assets/New_Balance_327.png' 
+                                        alt = 'New Balance 327 image'
+                                        className='shoe_img' 
+                                    />
+                                </Link>   
                             </div>  
                         </div>
                         <div className='col-6'>
@@ -141,11 +149,13 @@ export default function LandingPage(){
                                         className='heart'
                                     />
                                 </div>
-                                <img 
-                                    src='./Assets/JJJound_Vans.png' 
-                                    alt='JJJound Vans image'
-                                    className='shoe_img'
-                                />
+                                <Link to='/details'>
+                                    <img 
+                                        src='./Assets/JJJound_Vans.png' 
+                                        alt='JJJound Vans image'
+                                        className='shoe_img'
+                                    />
+                                </Link>
                             </div>          
                         </div>
                     </div>

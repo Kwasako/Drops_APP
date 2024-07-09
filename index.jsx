@@ -8,7 +8,12 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 function App() {
   return (
     <>
-      <DetailsPage/>
+      <BrowserRouter>
+        <Routes>
+          <Route path = '/' element={<LandingPage/>}/>
+          <Route path = '/details' element = {<DetailsPage/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
    
    
