@@ -4,8 +4,8 @@ body {
     color: #000000;
     text-align: center;
     box-sizing: border-box;
-    /* display: grid;
-    place-items: center; */
+    display: grid;
+    place-items: center;
     /* min-height: 100vh; */
     font-size: 16px;
 }
@@ -21,7 +21,7 @@ h1 {
 }
 .container{
     background-color: #fff;
-    width: 428px;
+    width: 100vw;
     border-radius: 20px; 
     padding-top: 18px;  
 }
