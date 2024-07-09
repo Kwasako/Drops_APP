@@ -22,8 +22,7 @@ h1 {
 }
 .container{
     background-color: #fff;
-    width: 100%;
-    max-width: 1200px;
+    width: 428px;
     border-radius: 20px; 
     padding-top: 18px;  
 }
