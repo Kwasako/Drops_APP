@@ -16,7 +16,7 @@ function App() {
           <Route path = '/details' element = {<DetailsPage/>}/>
         </Routes>
       </BrowserRouter>
-    </Deskstop>
+      </>
    
    
   )
