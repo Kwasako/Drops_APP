@@ -9,14 +9,14 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 function App() {
   return (
     <>
+      <Deskstop/>
       <BrowserRouter>
         <Routes>
           <Route path = '/' element={<LandingPage/>}/>
-          <Route path = '/' element={<Deskstop/>}/>
           <Route path = '/details' element = {<DetailsPage/>}/>
         </Routes>
       </BrowserRouter>
-    </>
+    </Deskstop>
    
    
   )
