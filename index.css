@@ -408,15 +408,78 @@ li{
     padding: 15px 10px;
 }
 
-/* :root {
-    --container-padding: 1rem;
-  }
-  
-  @media (min-width: 768px) {
-    :root {
-      --container-padding: 2rem;
+.deskstop{
+    display: none;
+    min-width: 600px;
+    background-color: white; 
+    padding-top: 49px;  
+}
+
+.deskstop-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 52px;
+    padding-right: 52px;
+    gap: 20px;
+}
+.deskstop_search{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.desksto-address{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.deskstop_new_arrival{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.88px;
+    text-align: center;
+
+}
+
+.deskstop_product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.deskstop_shoe_img{
+    background-color: rgba(217, 217, 217, 0.34);
+}
+
+.arrow-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next_arrow_bg{
+    background: rgba(98, 255, 2, 1);
+    display: grid;
+    place-items: center;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+@media (min-width: 768px){
+    .deskstop{ 
+        display: block;    
     }
-  } */
+    
+    .container{
+        display: none;
+    }
+}
+
 
 
 
